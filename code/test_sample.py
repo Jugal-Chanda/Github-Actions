@@ -1,5 +1,3 @@
-
-
 from calculator import Calculator
 
 def test_add_int():
