@@ -32,6 +32,6 @@ def test_divide_float():
     obj = Calculator()
     assert obj.divide(3.1,1.1) == 2.82
 
-# def test_divide_by_zero():
-#     obj = Calculator()
-#     assert obj.divide(3,0) == 'Cannot divide by 0'
+def test_divide_by_zero():
+    obj = Calculator()
+    assert obj.divide(3,0) == 'Cannot divide by 0'
