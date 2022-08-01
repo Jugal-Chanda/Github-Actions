@@ -1,14 +1,19 @@
 class Calculator:
-    def add(x, y):
-        return x + y
+    def add(self,x, y):
+        result =  x + y
+        return round(result, 2)
 
-    def subtract(x, y):
-        return x - y
+    def subtract(self,x, y):
+        result = x - y
+        return round(result, 2)
 
-    def multiply(x, y):
-        return x * y
+    def multiply(self,x, y):
+        result = x * y
+        return round(result, 2)
 
-    def divide(x, y):
+    def divide(self,x, y):
         if y == 0:
-            return 'Cannot divide by 0'
-        return x * 1.0 / y
+            result = 'Cannot divide by 0'
+            return result
+        result = x * 1.0 / y
+        return round(result, 2)
