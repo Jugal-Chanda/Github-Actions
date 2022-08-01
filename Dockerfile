@@ -8,4 +8,4 @@ COPY ./code /code
 
 WORKDIR /code
 
-RUN pytest
+RUN pytest --cov .
